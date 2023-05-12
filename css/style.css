@@ -20,6 +20,11 @@ body {
     padding: 3vw;
     color: #777;
     line-height: 1.7;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    margin-bottom: 5ch;
 }
 
 .header {
@@ -101,6 +106,7 @@ body {
 .heading-tertiary {
     text-transform: uppercase;
     margin-bottom: 2ch;
+    font-weight: 700;
 }
 
 .heading--main {
