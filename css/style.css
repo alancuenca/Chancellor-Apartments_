@@ -24,7 +24,7 @@ body {
 }
 
 p {
-    margin-bottom: 5ch;
+    margin-bottom: 2ch;
 }
 
 h2 {
@@ -383,7 +383,7 @@ h2 {
 }
 
 .card__cta {
-    width: 90%;
+    width: 100%;
     text-align: center;
 }
 
