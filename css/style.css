@@ -27,6 +27,11 @@ p {
     margin-bottom: 5ch;
 }
 
+h2 {
+    margin-bottom: 20ch;
+    font-weight: 700;
+}
+
 .header {
     height: 71rem;
     background-image: url(../images/hero.jpg);
