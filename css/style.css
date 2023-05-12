@@ -27,6 +27,10 @@ p {
     margin-bottom: 2ch;
 }
 
+p.paragraph {
+    margin-bottom: 5ch;
+}
+
 h2 {
     margin-bottom: 8ch;
     font-weight: 700;
