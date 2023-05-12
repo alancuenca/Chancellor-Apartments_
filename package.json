@@ -1,0 +1,29 @@
+{
+  "name": "chancellor-apartments",
+  "version": "1.0.0",
+  "description": "yardi take home assignment",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alancuenca/Chancellor-Apartments.git"
+  },
+  "keywords": [
+    "yardi"
+  ],
+  "author": "Alan Cuenca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alancuenca/Chancellor-Apartments/issues"
+  },
+  "homepage": "https://github.com/alancuenca/Chancellor-Apartments#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
