@@ -756,15 +756,6 @@ h2 {
 
     .navigation__button,
     .navigation__background {
-        top: 2rem;
-        right: 2rem;
-    }
-}
-
-@media (max-width: 375px) {
-
-    .navigation__button,
-    .navigation__background {
         top: 1.25rem;
         right: 1.25rem;
         height: 3rem;
@@ -790,4 +781,30 @@ h2 {
     .navigation__button:hover .navigation__icon::after {
         top: .55rem;
     }
+
+        .navigation__link:link,
+        .navigation__link:visited {
+            font-size: 1.5rem;
+        }
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer__logo {
+    margin-bottom: 1rem;
+}
+
+.footer__logo img {
+    max-width: 200px;
+    /* Adjust the size as needed */
+}
+
+.footer__text {
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    color: #888;
 }
