@@ -484,6 +484,10 @@ h2 {
 
 @media only screen and (max-width: 480px) {
 
+    body{
+        padding: 0;
+    }
+
     .btn:link,
     .btn:visited {
         padding: 1rem .5rem;
@@ -642,7 +646,7 @@ h2 {
     right: 4rem;
     background-image: radial-gradient(#98DFD6, #65948e);
     z-index: 998;
-    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
 .navigation__nav {
@@ -653,7 +657,7 @@ h2 {
     z-index: 999;
     opacity: 0;
     width: 0;
-    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .navigation__list {
@@ -673,7 +677,7 @@ h2 {
 .navigation__link:link,
 .navigation__link:visited {
     display: inline-block;
-    font-size: 2rem;
+    font-size: 2.25rem;
     font-weight: 400;
     padding: 1rem 2rem;
     color: #fff;
@@ -782,11 +786,13 @@ h2 {
         top: .55rem;
     }
 
-        .navigation__link:link,
-        .navigation__link:visited {
-            font-size: 1.5rem;
-        }
+    .navigation__link:link,
+    .navigation__link:visited {
+        font-size: 1.75rem;
+        padding: .5rem 1rem;
+    }
 }
+
 
 .footer {
     background-color: #f0f0f0;
