@@ -547,7 +547,6 @@ h2 {
 }
 
 .card__row {
-
     margin: 0 auto;
 }
 
@@ -583,17 +582,18 @@ h2 {
     background-size: cover;
     display: grid;
     grid-template-rows: repeat(6, 5vw);
-    grid-template-columns: repeat(6, 15vh);
+    grid-template-columns: repeat(6,8vw);
     align-items: center;
-    flex: 1;
+    flex: 1 2 0;
 }
 
 .story__content {
+    flex: 3 2 70vw;
     margin-left: 5vw;
 }
 
 .story__text {
-    width: 35vw;
+    max-width: 55vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -702,9 +702,9 @@ h2 {
     color: #888;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1150px) {
 
-    body{
+    body {
         padding: 0;
     }
 
@@ -718,6 +718,8 @@ h2 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .card__row .col-1-of-3 {
@@ -725,7 +727,7 @@ h2 {
     }
 
     .section-tours::before {
-        transform: translateY(-10rem);
+        transform: translateY(-3rem);
     }
 
     .story {
@@ -745,7 +747,7 @@ h2 {
     .story__content {
         margin: 5vw;
         margin-top: 15vh;
-        /*flex: 3 0 auto; */
+        flex: 3 0 auto;
     }
 
     .story__text {
@@ -996,11 +998,12 @@ h2 {
 }
 
 @media (max-width: 425px) {
+
     .navigation__button,
-        .navigation__background {
-            top: 1rem;
-            right: 1rem;
-            height: 3rem;
-            width: 3rem;
-        }
+    .navigation__background {
+        top: 1rem;
+        right: 1rem;
+        height: 3rem;
+        width: 3rem;
+    }
 }
