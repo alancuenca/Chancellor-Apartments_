@@ -954,12 +954,7 @@ h2 {
 @media (max-width: 425px) {
 
     .card__side {
-        max-width: 80%;
-    }
-
-    .card__section {
-        margin-left: 20px;
-
+        max-width: 100%;
     }
 
     .navigation__button,
