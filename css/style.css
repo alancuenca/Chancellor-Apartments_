@@ -89,6 +89,9 @@ h2 {
 .heading-secondary {
     margin-top: 4rem;
     color: #E21818;
+    font-family: 'Nonito', sans-serif;
+    font-size: clamp(10px, 35px, 4rem);
+    font-weight: 300;
 }
 
 .u-center-text {
