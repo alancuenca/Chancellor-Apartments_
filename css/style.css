@@ -590,12 +590,27 @@ h2 {
 .story__content {
     flex: 3 2 70vw;
     margin-left: 5vw;
+    font-family: 'Nunito', sans-serif;
 }
 
 .story__text {
     max-width: 55vw;
     display: flex;
     flex-wrap: wrap;
+}
+
+.heading-3{
+    font-size: 1.8rem;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1;
+}
+
+.heading-2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: clamp(10px, 40px, 4rem);
+    font-style: italic;
+    word-spacing: -4px;
 }
 
 .story__img--2 {
@@ -765,7 +780,7 @@ h2 {
     }
 
     .story__img--1 {
-        width: 100%;
+        width: 95%;
         grid-row: 4 / 6;
         grid-column: 4 / 7;
         z-index: 20;
